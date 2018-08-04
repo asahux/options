@@ -23,6 +23,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+	<groupId>kiteconnect</groupId>
+	<artifactId>kiteconnect</artifactId>
+	<version>3.0</version>
+	<scope>system</scope>
+	<systemPath>${basedir}/lib/kiteconnect.jar</systemPath>
+	</dependency>
   </dependencies>
   
   <build>
